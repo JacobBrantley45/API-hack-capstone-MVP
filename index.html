@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" class="Home">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Movies by assosiation</title>
+    
+    <link href="style.css" rel="stylesheet" type="text/css" />    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Slabo+27px" rel="stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    
+</head>
+<body>
+
+    <main>
+        <div class="homePage">
+          <h1>Movies by assosiation</h1>
+          <p>Find just the right movie to watch.</p>
+          <p>Have you ever enjoyed a movie so much that you became obsessed with that specific genre of movies, and wished to find more movies like it? If so, this is your spot. Simply insert a film you enjoy into the text box, and we will return some films we think you will enjoy!</p>
+            
+            <form class="js-form">
+                <input role="textbox"  type="text" class="js-query" id="search-item" placeholder="topic or movie title" required>
+                <button type="submit" class="js-searchButton">Search</button>
+            </form>
+            
+            <div class="js-search-results"></div>
+        </div>       
+    </main>
+      
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
